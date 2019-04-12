@@ -8,20 +8,74 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topNavBar {
+  background-image: linear-gradient(-180deg, #FFC546 98%, #FFD531 100%);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top:0;
+  border-bottom-left-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center
+}
+
+.App-header {
+  background-image: linear-gradient(-180deg, #FFC546 98%, #FFD531 100%);
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: '100%';
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom-left-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  height: 80px;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.sjef {
+  flex: 8;
+  /* position: absolute;             
+  left: 50%;
+  top:39%; */
+  /* transform: translateX(-50%); */
+}
+
+.dummy {
+  flex:2;
+  height:1px;
+}
+
+.gear {
+  flex:1;
+  margin-right: 5px;
+} 
+
+.gearContainer {
+  width: 45px;
+  margin-right: 5px;
+}
+
+.productOverviewSwitcher {
+  display: flex;
+  margin-right: 5px;
+  width: 45px;
+  justify-content: space-between;
+}
+
+
+main {
+  margin-top:65px;
+  margin-bottom: 80px;
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

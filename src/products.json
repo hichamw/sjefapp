@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "name": "Boerenkool",
+      "distance": 223,
+      "itemsAvailable": 5,
+      "unit": "500 g",
+      "price": 0.45,
+      "lat": 51.92319,
+      "long": 4.477803,
+      "id": 6
+    },
+    {
+      "name": "Blueband Kookroom",
+      "distance": 223,
+      "itemsAvailable": 10,
+      "unit": "250 ml",
+      "price": 0.3,
+      "lat": 51.92319,
+      "long": 4.477803,
+      "id": 7
+    },
+    {
+      "name": "Prei",
+      "distance": 354,
+      "itemsAvailable": 8,
+      "unit": "1 st",
+      "price": 0.12,
+      "lat": 51.925066,
+      "long": 4.469515,
+      "id": 3
+    },
+    {
+      "name": "AH Smoothie",
+      "distance": 294,
+      "itemsAvailable": 5,
+      "unit": "300 g",
+      "price": 0.5,
+      "lat": 51.921118,
+      "long": 4.472474,
+      "id": 4
+    },
+    {
+      "name": "Broccoli",
+      "distance": 381,
+      "itemsAvailable": 7,
+      "unit": "350 g",
+      "price": 0.2,
+      "lat": 51.913174,
+      "long": 4.458649,
+      "id": 2
+    },
+    {
+      "name": "Kiwi's",
+      "distance": 294,
+      "itemsAvailable": 4,
+      "unit": "1 st",
+      "price": 0.1,
+      "lat": 51.916484,
+      "long": 4.485768,
+      "id": 8
+    },
+    {
+      "name": "Trostomaten",
+      "distance": 693,
+      "itemsAvailable": 2,
+      "unit": "5 st",
+      "price": 0.21,
+      "lat": 51.916362,
+      "long": 4.470641,
+      "id": 9
+    }
+  ],
+  "receipts": [
+    {
+      "name": "Boerenkool",
+      "distance": 294,
+      "itemsReserved": 2,
+      "unit": "300 g",
+      "price": 0.18,
+      "lat": 51.921118,
+      "long": 4.472474,
+      "id": 1,
+      "reservedUntil": "2019-04-12T14:25:43.511Z",
+      "validUntil": "",
+      "pickedUpAt": "",
+      "status": "reserved",
+      "productId": 6
+    },
+    {
+      "name": "Broccoli",
+      "distance": 294,
+      "itemsReserved": 2,
+      "unit": "300 g",
+      "price": 0.1,
+      "lat": 51.921118,
+      "long": 4.472474,
+      "id": 2,
+      "reservedUntil": "2019-04-13T18:25:43.511Z",
+      "validUntil": "2019-04-14T18:25:00.511Z",
+      "pickedUpAt": "",
+      "status": "valid",
+      "productId": 2
+    },
+    {
+      "name": "AH Smoothie",
+      "distance": 294,
+      "itemsReserved": 2,
+      "unit": "300 g",
+      "price": 0.18,
+      "lat": 51.921118,
+      "long": 4.472474,
+      "id": 3,
+      "reservedUntil": "2019-04-13T18:25:43.511Z",
+      "validUntil": "2019-04-13T18:25:43.511Z",
+      "pickedUpAt": "2019-04-13T18:25:43.511Z",
+      "status": "pickedUp",
+      "productId": 4
+    },
+    {
+      "name": "Trostomaten",
+      "distance": 693,
+      "itemsReserved": "2",
+      "unit": "5 st",
+      "price": 0.21,
+      "lat": 51.916362,
+      "long": 4.470641,
+      "reservedUntil": "2019-04-13T15:03:54.494Z",
+      "validUntil": "2019-04-15T13:35:14.813Z",
+      "pickedUpAt": "2019-04-12T13:39:01.464Z",
+      "status": "pickedUp",
+      "productId": 9,
+      "id": 4
+    }
+  ]
+}

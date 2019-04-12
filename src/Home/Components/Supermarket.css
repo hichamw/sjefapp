@@ -1,0 +1,50 @@
+.superContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow:1;
+    margin-top: 15px;
+}
+
+.imgContainer {
+    border-radius: 5px;
+    /* border: 1px solid  #979797; */
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.15);
+    width: 100px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainer img {
+    width: 75px;
+}
+
+.textContainer {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.textContainer span {
+    font-size: 12px;
+    flex: 1;
+}
+
+.supermarketDistance {
+    font-size:12px;
+    font-family: Roboto;
+    color: #A3A3A3;
+}
+
+.supermarketItemsAvailable {
+    padding-left:5px;
+    font-size:12px;
+    font-family: Roboto;
+    color: #FFC546;
+}
+
+.supermarketItemsAvailable img {
+    margin-left: 10px;
+}

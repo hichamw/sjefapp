@@ -1,0 +1,104 @@
+.mainProductContainer {
+    display:flex;
+    height: 96px;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+
+}
+
+.productListImageWrapper {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    height: 86px;
+    border-radius: 5px;
+}
+
+
+.productTextContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.productListName {
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.distanceTimeContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+
+.unitPriceContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+
+    /* width: 100%; */
+    justify-content: space-between;
+}
+
+.middleContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.middleContainer span {
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: start;
+    color: #A3A3A3;
+}
+
+.productListTimeslot {
+    
+    
+}
+
+.productListDistance {
+    text-align: start;
+}
+
+.productListUnit {
+    text-align: start;
+}
+
+.productListAmount {
+    text-align: start;
+}
+
+.productListUnderContainer {
+    display: flex; 
+    width: 90%;
+    justify-content: space-between;
+    margin-top:5px;
+}
+
+.productListUnderContainer span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.productListPrice {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333333;
+}
+
+.dividerLine {
+    width: 100%;
+    border: 0.5px solid #BFBFBF;
+    margin: 0 auto
+}

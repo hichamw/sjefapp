@@ -1,0 +1,47 @@
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 5px;
+}
+
+.topTextContainer {
+    margin-top:20px;
+    margin-bottom: 4px;
+}
+
+.headText {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.bottomTextContainer p {
+    font-size:15px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-bottom: 0;
+}
+
+
+.yellow {
+  color: #FFC546;
+}
+
+.separateText {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.separateText span:not(.yellow) {
+    font-size:15px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.separateText span.yellow {
+    font-size:15px;
+    font-family: Roboto;
+}

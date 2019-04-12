@@ -1,0 +1,6 @@
+.supermarketContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-top:-15px;
+}

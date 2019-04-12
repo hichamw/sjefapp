@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Boerenkool",
+        "distance": 294,
+        "itemsReserved": 2,
+        "unit": "300 g",
+        "price": 0.18,
+        "lat": 51.921118,
+        "long": 4.472474,
+        "imgId": 6,
+        "reservedUntil": "2019-04-13T18:25:43.511Z",
+        "validUntil": "",
+        "pickedUpAt": "",
+        "status": "reserved"
+    }
+]

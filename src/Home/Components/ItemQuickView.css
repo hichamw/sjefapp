@@ -1,0 +1,48 @@
+.itemQuickView {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.itemQuickView .itemImage {
+    width: 114px;
+    height: 86px;
+}
+
+.itemQuickView span {
+    align-self: center;
+}
+
+.productDetails {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.productName {
+    flex: 0 0 100%;
+    font-size:15px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #333
+}
+
+.productLine {
+    display: flex;
+    flex: 100%;
+    justify-content: center
+}
+
+.productPrice {
+    padding-right: 12px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #333;
+}
+
+.productDistance {
+    font-size:14px;
+    font-family: Roboto;
+    color: #A3A3A3;
+}
