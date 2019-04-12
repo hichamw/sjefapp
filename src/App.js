@@ -60,9 +60,6 @@ class App extends Component {
   }
 
   render() {
-    var width = 350;
-    var height = 500;
-    self.resizeTo(width, height);
     return (
       <div className="App">
         <div className="topNavBar">
